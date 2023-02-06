@@ -8,28 +8,30 @@
     <link rel= "stylesheet" href="style.css">
 </head>
 <body>
-  <div id = "heading">
-    <p>sign in using username and password</p>
-  </div>
+    <div id = "heading">
+       <p>sign in using username and password</p>
+    </div>
+    
     <div class="login">
-        <label for="username">username</label>
-        <input type ="text"  placeholder="Enter Name" name="username">
-         <br/>
-        <br/>
+          <label for="username">username</label>
+          <input type ="text"  placeholder="Enter Name" name="username">
+          <br/>
+          <br/>
 
-        <label for="password">password</label>
-        <input type ="password"  placeholder="Enter pswd" name="passsword">
-       <br>
-       <br>
+           <label for="password">password</label>
+           <input type ="password"  placeholder="Enter pswd" name="passsword">
+           <br>
+           <br>
 
-       <label class="re" for = "Remember">Remember me</label>
-      <input type="checkbox" name = "Remember">
-      <br>
-      <br>
-       <button type ="submit">sign up</button>
+          <label class="re" for = "Remember">Remember me</label>
+          <input type="checkbox" name = "Remember">
+          <br>
+          <br>
+          
+          <button type ="submit">sign up</button>
 
        
-       <p>first time! <a href = "">register here</a></p>
-      </div>
+          <p>first time! <a href = "">register here</a></p>
+     </div>
 </body>
 </html>
