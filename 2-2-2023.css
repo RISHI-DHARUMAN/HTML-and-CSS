@@ -1,6 +1,5 @@
 *{
     font-family: Arial;
-    
     background: linear-gradient(to bottom, #020202, #a3c4b3) ; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,6 +28,7 @@ summary {
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
 }
+
 table ,tr,th{
 
     border: 1px solid black;
