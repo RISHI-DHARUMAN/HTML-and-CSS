@@ -1,0 +1,97 @@
+ /*universal seletors*/
+*
+{
+    color:blue;
+  background-color: silver;
+
+}
+
+/* type selectors */
+span{
+    background-color: aqua;
+}
+
+
+/* class selectors */
+.red {
+    color: rgb(228, 55, 55);
+  }
+.yellow-bg {
+    background: rgb(180, 180, 60);
+  }
+  
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px blue;
+  }
+ 
+
+/* id selectors */
+#identified
+ {
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+
+/* attribute selector */
+  a {
+    color: blue;
+  }
+  
+  
+  a[href^="#"] {
+    background-color: gold;
+  }
+  
+ 
+  a[href*="example"] {
+    background-color: silver;
+  }
+  
+  a[href*="insensitive" i] {
+    color: cyan;
+  }
+  
+  a[href*="cAsE" s] {
+    color: pink;
+  }
+
+  a[href$=".org"] {
+    color: red;
+  }
+  
+  a[href^="https"][href$=".org"] {
+    color: green;
+  }
+
+   a[href~="flower" i ] 
+  {
+    background-color: black;
+  }
+  /* selector list */
+  .selector_list :is(h3,p)
+  {
+   font-size :20px;
+   background-color: black;
+  }
+/* 
+  li {
+    list-style-type: disc;
+  } */
+  
+ .heading :is(li,p){
+    color: red;
+    list-style-type: lower-roman;
+  }
+
+
+.weeks>li
+{
+    color: rgb(123, 131, 20);
+} 
+  
+
+.hover:hover{
+   background-color :blueviolet;
+}
+  
