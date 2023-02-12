@@ -1,0 +1,53 @@
+*{
+  font-family: Arial;
+  background-color: aqua ; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:rgb(13, 12, 13);
+}
+
+var {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: circle;
+}
+
+li li {
+  list-style-type: square;
+}
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+table ,tr,th{
+
+  border: 1px solid black;
+      border-collapse:collapse;
+ 
+}
+iframe {
+  border: 1px solid black;
+  width: 30%;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float:right;
+  font-style: italic;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+span{
+    background-color: beige;
+}
