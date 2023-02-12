@@ -1,0 +1,53 @@
+.float {
+    background-color: aquamarine;
+    overflow: auto;
+    /* display:flow-root;   same function as overflow */
+}
+
+.float>img {
+    float: left;
+    padding-right: 10px;
+}
+
+/* .both
+{
+    clear:both;
+} */
+
+p:nth-child(3) {
+    clear: both;
+}
+
+.image {
+  width: 30vw;
+  height: 30vw;
+  background-color: black;
+  color:white;
+  float:right;
+}
+
+.parent
+{
+   
+    background-color: bisque;
+    height: 1000px;
+}
+.child{
+    border: 1px solid black;
+    margin: 10px;
+    height: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+/* relative  */
+.child1
+{
+    position: fixed;
+    top: 10px;
+   
+}
+.child2
+{
+    position:sticky;
+    top: 60px;
+}
